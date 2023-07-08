@@ -1,0 +1,186 @@
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+/*ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: fffffff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}*/
+body {
+  font-family: Poppins;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 11vh;
+  background-color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem 0.8rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+li a {
+  text-align: center;
+  padding: 12px 14px;
+  /*line-height: 30px;
+    font-family:Poppins;
+   font-weight:500;
+font-size:20px;*/
+}
+li a:hover {
+  color: #108947;
+}
+.nav-link {
+  transition: all 0.1s ease;
+  color: #010101;
+  font-weight: 500;
+}
+.nav-link.about {
+  color: #108947;
+}
+
+.nav-link:hover {
+  opacity: 70%;
+}
+#contribute-link {
+  color: #fff;
+}
+.contributebtn {
+  background-color: #108947;
+  display: inline-block;
+  padding: 9px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 9px;
+}
+.contributebtn:hover {
+  background-color: #108947;
+  transition: 0.9s;
+}
+.contributebtn:active {
+  background-color: #108947;
+  box-shadow: 0 20px #666;
+  transform: translateX(4px);
+}
+.h1-class {
+  text-align: center;
+  padding: 40px;
+  margin: 1rem;
+  color: #108947;
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+  font-size: bold;
+  color: #108947;
+}
+p {
+  line-height: 40px;
+  color: #052915;
+  font-size: 18px;
+}
+.who-we-are {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.mission {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.values {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.value-list {
+  line-height: 48px;
+}
+footer {
+  background-color: #108947;
+  padding: 30px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+.footer-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+}
+.find-us-text {
+  text-align: justify;
+  color: #fff;
+}
+.footer-list {
+  list-style-type: none;
+  line-height: 30px;
+}
+hr {
+  color: #fff;
+  margin: 30px;
+}
+.terms-privacy {
+  display: flex;
+  gap: 70px;
+  padding: 5px;
+  margin-left: 6rem;
+}
+.last-flex {
+  margin-left: 6rem;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.terms {
+  color: #fff;
+}
+.overall-flex {
+  display: flex;
+}

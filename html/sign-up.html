@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign Up | Ancentrals</title>
+        <link rel="stylesheet" href="../css/sign-up.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        
+    </head>
+    <body>
+        <header>
+            <nav></nav>
+        </header>
+
+        <main>
+            
+
+            <form class="sign_up_card" id="form" novalidate>
+                <div class="form-label">
+                    <h1>Register here.</h1>
+                    <p>We promise, it would only take a minute.</p>
+                </div>
+                <div class="signup_form">
+                    <input
+                        type="text"
+                        name="Name"
+                        id="name"
+                        placeholder="Name"
+                    />
+                    <p class="error" id="name-error">
+                        Minimum 2 characters(letters only)
+                    </p>
+                    <input
+                        type="email"
+                        name=""
+                        id="email"
+                        placeholder="Email Address"
+                    />
+                    <p class="error" id="email-error">
+                        Please enter a valid email address
+                    </p>
+                    <input
+                        type="tel"
+                        name=""
+                        id="phone"
+                        placeholder="Phone Number "
+                    />
+                    <p class="error" id="phone-error">
+                        Please enter a valid phone number
+                    </p>
+                    <div class="password-holder">
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Password"
+                        />
+                        <img class="eye" src="../images/eye-slash.png" alt="" />
+                    </div>
+                    <p class="error" id="password-error">
+                        Password must contain at least one digit. (Minimum 6
+                        characters)
+                    </p>
+                    <label>
+                        <input
+                            id="checkbox"
+                            class="checkbox"
+                            type="checkbox"
+                            value="check"
+                        />I have read and agreed with the
+                        <a href=""> privacy policy</a> and
+                        <a href="">terms of service.</a>
+                    </label>
+                    <p class="error" id="checkbox-error">Required</p>
+                    <button class="submit-btn" type="submit">Sign up</button>
+                </div>
+                <div class="policies">
+                    <p>Already have an account? <a href="#">Sign in</a></p>
+                    <p>
+                        <a href="">Privacy Policy</a> |
+                        <a href="">Terms and Conditions</a>
+                    </p>
+                </div>
+                <div></div>
+            </form>
+            <div class="bg_image"></div>
+        </main>
+
+        <footer></footer>
+        <script src="../js/sign-up.js"></script>
+    </body>
+</html>
